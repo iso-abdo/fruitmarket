@@ -1,4 +1,6 @@
 import 'package:flutter/cupertino.dart';
+import 'package:fruitsmarket/core/utils/size_config.dart';
+import 'package:fruitsmarket/core/widget/customgeneralbuttin.dart';
 
 class OnBordingBady extends StatelessWidget {
   const OnBordingBady({Key? key}) : super(key: key);
@@ -7,7 +9,7 @@ class OnBordingBady extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        /*Positioned(
+        Positioned(
           //top: MediaQuery.of(context).size.height*.1,
           top: SizeConfig.defaultSize! *10,
           right: SizeConfig.defaultSize!*3,
@@ -36,12 +38,12 @@ class OnBordingBady extends StatelessWidget {
         ),
         Positioned(
             left: SizeConfig.defaultSize!*10,
-            right: SizeConfig.defaultSize!*20,
-            bottom: SizeConfig.defaultSize!*5,
+            right: SizeConfig.defaultSize! * 10,
+            bottom: SizeConfig.defaultSize! * 20,
             child: CustomGenralButtin()
         ),
 
-      */
+
       ],
     );
   }
