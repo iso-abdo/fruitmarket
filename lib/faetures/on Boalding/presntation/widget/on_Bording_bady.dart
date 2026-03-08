@@ -39,7 +39,7 @@ class OnBordingBady extends StatelessWidget {
         Positioned(
             left: SizeConfig.defaultSize!*10,
             right: SizeConfig.defaultSize! * 10,
-            bottom: SizeConfig.defaultSize! * 20,
+            bottom: SizeConfig.defaultSize! * 30,
             child: CustomGenralButtin()
         ),
 
